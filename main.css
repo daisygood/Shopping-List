@@ -1,0 +1,76 @@
+body{
+	background: url('vegetables.jpg')no-repeat center center;
+	background-size:cover;
+	-webkit-background-size: cover; 
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+.container{
+
+	height:500px;
+	max-width:600px;
+	background-color:rgba(255, 255, 255,0.8);
+	margin:0 auto;
+	text-align:center;
+	margin-top:100px;
+	margin-bottom:100px;
+	overflow:auto;
+
+}
+
+.container h1{
+	padding-top:20px;
+	color:#000099;
+
+}
+ul{
+	list-style: none;
+	padding:10px 90px;
+	text-align:left;
+}
+li{
+	background: rgba(255,255,255,0.8);
+	padding:15px;
+	margin-top:10px;
+	color:#000099;
+}
+li span{
+	margin-left:10px;
+}
+.glyphicon-remove{
+	float:right;
+	cursor: pointer;
+}
+#textbox{
+	width:300px;
+	height:50px;
+	border:none;
+	border-bottom:2px solid #000099;
+	font-size:20px;
+	margin-right:20px;
+	background:none;
+	padding-left:10px;
+}
+.checkbox{
+	margin:0px;
+}
+form .btn-default{
+	font-size:20px;
+	color:#fff;
+	background-color: rgba(0, 0, 153,1);
+	border:none;
+	padding:13px 20px;
+}
+form .btn-default:hover{
+  color:#000099;
+  
+}
+.container p{
+	text-align:left;
+	color:red;
+	margin-left:100px;
+}
+.line-through{
+	text-decoration: line-through;
+}

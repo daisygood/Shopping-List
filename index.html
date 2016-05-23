@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Shopping List</title>
+	<title>My Shopping List</title>
+	<link type="text/css" href="main.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
+<div class="container">
+	<h1>Shopping List</h1>
+	<form>
+		<input id="textbox" type="text" placeholder="Add item"><button type="submit"class="btn-default">+</button>
+	</form>
+	<p class="error-message"></p>
+	<ul class="list">
+	</ul>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
